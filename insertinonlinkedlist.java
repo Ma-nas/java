@@ -27,7 +27,7 @@ public class insertinonlinkedlist {
     
 
     public static void main (String[]args){
-        Node head = addatend(3, 0);
+        Node head = addatend(null, 3);
         head = addatend(head, 1);
 
 
@@ -44,3 +44,4 @@ class Node{
         this.next = null;
     }
 }
+

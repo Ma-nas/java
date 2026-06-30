@@ -38,7 +38,7 @@ public class nthnodefromend {
         head.next.next.next = temp;
         temp = new Node(50);
         head.next.next.next.next = temp;
-        Node result = nthNode(head, 2);
+        Node result = nthNode(head, 4);
         System.out.println(result.data);
     }
         
